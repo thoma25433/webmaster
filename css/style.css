@@ -1,54 +1,86 @@
 /* Main Header */
-#content{
-    height:100%;
-    width:100%;
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+  background-image: url("/img/stars.png");
+
+}
+#middle{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
+}
+#content{
+    height: 100%;
+    width: 85%;
+    border: 5px solid black;
+    background-color: #f4f4f4;
+    padding: 1%;
+
+}
+.container {
+  width: 80%;
+  margin: auto;
+  /* No scroll bars even if text goes out of the container */
+  overflow: hidden;
 }
 
-#Title-Headerbox{
-    text-align:center;
-    color:yellow;
-    
+#main-header {
+  background-image: url("/img/stars.png");
+  background-color: #052d4c;
+  color: #e3ebb5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#motto-Headerbox{
-    color: yellow;
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 
-
-.bio-paragraph{
-    width: 300px;
-    border: 2px solid #AE9F9F;
-    float:center;
-    padding: 50px;
-    margin-top: 95px;
-   background-color:#585050;
+#navbar a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
-
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: #200753;
+  color: white;
+}
 /* Animated Background */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     min-height: 100vh;
     background: #080116;
-}
+} */
 
 .container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  /* width: 100%;
+    height: 100vh; */
+  overflow: hidden;
 }
 
-.stars {
+/* .stars {
     position: relative;
     display: flex;
 }
@@ -64,7 +96,7 @@ body {
     0 0 50px #D5AB55,
     0 0 100px #D5AB55;
     animation: animate 15s linear infinite;
-    /* change the speed of stars */
+        change the speed of stars 
     animation-duration: calc(350s / var(--i));
     position:relative;
     z-index: -1
@@ -85,4 +117,4 @@ body {
         transform: translateY(-10vh) scale(1);
     }
 }
-  
+   */
