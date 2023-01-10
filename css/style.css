@@ -18,7 +18,7 @@ body {
 #content{
     height: 100%;
     width: 85%;
-    border: 5px solid black;
+    border:0;
     background-color: #f4f4f4;
     padding: 1%;
 
@@ -120,7 +120,13 @@ body {
 
 
    #sidebar{
-    float:right;
+    margin: auto;
+    width: 70%;
+    padding:0 30px;
+    box-sizing:border-box;
+    background-color: #052d4c;
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
    }
    
 
@@ -136,8 +142,15 @@ body {
    }
 
    #showcase h1{
-    color: #ddd;
+    color:#ddd;
     font-size:30px;
     line-height:1.6em;
     padding:30px;
    }
+
+  .header{
+  text-align: center;
+  margin: bottom 40px;
+  font-size: 13px;
+   
+  }
