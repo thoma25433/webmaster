@@ -197,6 +197,11 @@ body {
   padding:60px;
 }
 
+
+#contact-header{
+  text-align: center;
+}
+
 #contact-form{
   position: relative;
   text-align: center;
@@ -206,4 +211,48 @@ body {
   margin-top: 10px;
   margin-bottom: 100px;
   padding: 50px;
+  background-color: #052d4c;
+}
+
+#contact-header{
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+
+
+.full-Name {
+color: #f2f2f2;
+font-size:17px;
+}
+
+.email{
+text-align: center;
+color: #f2f2f2;
+font-size:17px;
+
+}
+
+.question{
+text-align: center;
+color: #f2f2f2;
+font-size:17px;
+}
+
+.phone{
+text-align: center;
+color: #f2f2f2;
+font-size:17px;
+}
+
+.submit-button{
+  text-align: center;
+}
+
+#other-contact{
+  color:#555;
+}
+
+#other-info{
+  color:#f2f2f2;
 }
