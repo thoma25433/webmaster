@@ -181,8 +181,9 @@ body {
 
 .safetyPic{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  margin-left: 180px;
+  margin-bottom: 70px;
   width: 50%
   
   
@@ -254,5 +255,6 @@ font-size:17px;
 }
 
 #other-info{
-  color:#f2f2f2;
+  color:#555;
+  margin-bottom: 200px;
 }
