@@ -282,3 +282,13 @@ text-align: center;
 
 }
 
+#exp-heading{
+  text-align: center;
+  margin:auto;
+  padding:auto;
+}
+
+#exp-picture{
+  margin:auto;
+  padding:auto;
+}
