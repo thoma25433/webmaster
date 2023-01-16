@@ -125,14 +125,14 @@ body {
     width: 70%;
     padding:0 30px;
     box-sizing:border-box;
-    background-color: #200753;
+    background-color: #052d4c;
     color: #ddd;
     font-family: Arial, Helvetica, sans-serif;
    }
    
    #company-motto{
     text-align: center;
-    
+    padding:auto;
    }
 
    #showcase{
