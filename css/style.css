@@ -124,24 +124,28 @@ body {
     width: 70%;
     padding:0 30px;
     box-sizing:border-box;
-    background-color: #052d4c;
+    background-color: #200753;
     color: #ddd;
     font-family: Arial, Helvetica, sans-serif;
    }
    
+   #company-motto{
+    text-align: center;
+    
+   }
 
    #showcase{
     text-align:center;
     color:#052d4c;
-    background-image: url("../img/stars.png");
     background-position:center right;
+    background-image: url("../img/starBackground.jpg");
     /* Height will grow with text */
     min-height:300px;
     padding-bottom:40px;
     margin-bottom:50px;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+	  background-repeat: no-repeat;
    }
 
 
@@ -258,3 +262,22 @@ font-size:17px;
   color:#555;
   margin-bottom: 200px;
 }
+
+.star-bus{
+margin: auto;
+
+}
+
+#contact-page h1{
+text-align: center;
+}
+
+#contact-page p{
+  padding:auto;
+  margin:auto;
+  margin-bottom:20px;
+  text-align: center;
+  font-size: 15px;
+
+}
+
