@@ -61,21 +61,22 @@ body {
   color: white;
 }
 /* Animated Background */
-/* * {
+/*
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
 
-/* body {
+body {
     min-height: 100vh;
     background: #080116;
-} */
+} 
 
 .container {
-
-  /* width: 100%;
-    height: 100vh; */
+  
+  width: 100%;
+  height: 100vh;
   
 }
 
