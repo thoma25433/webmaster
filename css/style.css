@@ -40,6 +40,8 @@ body {
 
 #navbar {
   overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
   background-color: #333;
 }
 
@@ -60,65 +62,6 @@ body {
   background-color: #200753;
   color: white;
 }
-/* Animated Background */
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-
-body {
-    min-height: 100vh;
-    background: #080116;
-} 
-
-.container {
-  
-  width: 100%;
-  height: 100vh;
-  
-}
-
-/* .stars {
-    position: relative;
-    display: flex;
-}
-
-.stars span {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: #D5AB55;
-    margin: 0 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #f3bf576c,
-    0 0 50px #D5AB55,
-    0 0 100px #D5AB55;
-    animation: animate 15s linear infinite;
-        change the speed of stars 
-    animation-duration: calc(350s / var(--i));
-    position:relative;
-    z-index: -1
-}
-
-.stars span:nth-child(even) {
-    background: #e2a223;
-    box-shadow: 0 0 0 10px #f3bf576c,
-    0 0 50px #a57412,
-    0 0 100px #a57412;
-}
-
-@keyframes animate {
-    0% {
-        transform: translateY(100vh) scale(0);
-    }
-    100% {
-        transform: translateY(-10vh) scale(1);
-    }
-}
-   */
-
 
    #sidebar{
     margin: auto;
@@ -157,12 +100,21 @@ body {
     padding:30px;
    }
 
-  .header{
+  
+   .header{
   text-align: center;
   margin: bottom 40px;
   font-size: 13px;
+  
    
   }
+
+
+  
+
+
+
+  
 
   #main-footer{
     background:#333;
@@ -200,7 +152,6 @@ body {
   color:#555;
   line-height: 2em;
   font-size: 10px;
-  padding:60px;
 }
 
 
