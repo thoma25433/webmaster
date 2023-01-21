@@ -110,12 +110,6 @@ body {
   }
 
 
-  
-
-
-
-  
-
   #main-footer{
     background:#333;
     color:#fff;
@@ -137,15 +131,14 @@ body {
 }
 
 .safetyPic{
-  display: block;
-  margin: auto;
-  margin-left: 180px;
-  margin-bottom: 70px;
-  width: 50%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   
 
-}
+
 
 .contact-paragraph{
   text-align: center;
@@ -215,9 +208,18 @@ font-size:17px;
   margin-bottom: 200px;
 }
 
-.star-bus{
-margin: auto;
+.safetyPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.star-bus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #contact-page h1{
@@ -240,10 +242,19 @@ text-align: center;
 }
 
 #exp-picture{
-  margin:auto;
-  padding:auto;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 #about-header{
   text-align: center;
+}
+
+#exp-picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
